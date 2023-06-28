@@ -1,0 +1,148 @@
+{
+  "COMPANY_SENIOR_FRONTEND": "Zenvia Mobile (Aug 2020 - Jul 2022)",
+  "COMPANY_SOFTWARE_ARCHITECT": "XP Inc (Aug 2022 - Apr 2023)",
+  "COMPANY_TECH_MANAGER": "Acerto Cobranças (Apr de 2023 - atual)",
+  "DESCRIPTION_SENIOR_FRONTEND": "Acting in the conversational chatbots team with communication platforms such as Whatsapp, SMS, Instagram, Facebook and etc. Responsible for the technical evolution of the monolith frontend application to a micro frontend managed by Single SPA, using the framework Angular 9 and Angular 10, Vue.js 3 and Vue.js 4. Implementation of E2E tests with Cypress and unit tests with Karma. Using the tool to send data to Google Analytics and using FullStory to analyze customer behavior. Participation in the FrontEnd Chapter and organizer of events about the tech area within the company.",
+  "DESCRIPTION_SOFTWARE_ARCHITECT": "Architecture analysis and performance tests to support different themes in the Soma Design System component library. Experience with testing snapshots. Participation of Soma's ambassador team, in order to increasingly increase the use of the component library in the company's applications. Experience using the StencilJs library, Typescript and React. Leadership in building the internal project to reward developers' contributions to the company's innersource projects. During the construction of the project, I created the product roadmap based on applied research with engineers, architecture design and implementation. Frontend experience using NextJs, React. Use of Node.js for backend application and PostgreSQL database, with infrastructure in Azure.",
+  "DESCRIPTION_TECH_MANAGER": "I'm currently in the role of frontend tech manager, leading a team of frontend developers.I work with technical guidance for the team, creating strategic planning for the team and metrics to measure progress and results. Acting as a Strategic Design System Leader, responsible for building connections and relationships with other engineers, designers and product leaders to ensure deliveries aligned with product and company strategy.Acting in the formation of the technology recruitment and onboarding process, hiring and integrating engineering talents that work in Front-End technologies and platforms, being also responsible for promoting feedback (1:1), building PDI and career development of the team under my management.",
+  "EVENTS": "Events (9)",
+  "EXPERIENCES": "Experiences",
+  "FIND_ME": "Find Me",
+  "HELLO": "Hi, I'm",
+  "HIRE_TALKS": "Want an engaging lecture full of knowledge about software development? Get in touch now and find out how I can share valuable insights and inspire your team or audience",
+  "JOBS": "Tech Manager FrontEnd | Speaker | Mentor",
+  "LABEL_YEARS_EXPERIENCE_AREA": "years of experience in the frontend area",
+  "LABEL_YEARS_EXPERIENCE_DEVELOPMENT": "years of experience in software development",
+  "LEARN_MORE": "Learn More",
+  "TECH_TALKS": "Tech Talks",
+  "TITLE_SENIOR_FRONTEND": "Senior FrontEnd Software Engineer",
+  "TITLE_SOFTWARE_ARCHITECT": "Software Architect FrontEnd",
+  "TITLE_TECH_MANAGER": "Tech Manager FrontEnd",
+  "VOLUNTEER": "Volunteer Works (7)",
+  "TALKS": [
+    {
+      "event": "DevTEC Event",
+      "local": "Tubarão - SC / Brazil",
+      "date": "06/20/2023",
+      "talk": "Cracking the Design System",
+      "link": "https://www.canva.com/design/DAFl1BSagiE/srEiB7l9By_6d1xKlAg87w/edit?utm_content=DAFl1BSagiE&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton",
+      "logo": "/icons/logo-dev-tec.svg"
+    },
+    {
+      "event": "DevTEC Event",
+      "local": "Tubarão - SC / Brazil",
+      "date": "06/20/2023",
+      "talk": "Debate about How to Start a Career in Software Development",
+      "link": "",
+      "logo": "/icons/logo-dev-tec.svg"
+    },
+    {
+      "event": "GUFERS Community Event",
+      "local": "Online",
+      "date": "08/26/2021",
+      "talk": "Single-SPA: How this framework can help me in building Micro FrontEnds",
+      "link": "",
+      "logo": "/icons/logo-sucesu-rs.svg"
+    },
+    {
+      "event": "The Developers Conference | Track about JavaScript and Node.js",
+      "local": "Online",
+      "date": "03/23/2021",
+      "talk": "Single-SPA: How this framework can help me in building Micro FrontEnds",
+      "link": "",
+      "logo": "/icons/logo-thedevconf.svg"
+    },
+    {
+      "event": "The Developers Conference Innovation | Track about JavaScript and Node.js",
+      "local": "Online",
+      "date": "03/23/2021",
+      "talk": "Debate about Innovation in JavaScript",
+      "link": "",
+      "logo": "/icons/logo-thedevconf.svg"
+    },
+    {
+      "event": "The Developers Conference | Track about JavaScript and Node.js",
+      "local": "Porto Alegre - RS / Brazil",
+      "date": "12/03/2020",
+      "talk": "Single-SPA: How this framework can help me in building Micro FrontEnds",
+      "link": "",
+      "logo": "/icons/logo-thedevconf.svg"
+    },
+    {
+      "event": "The Developers Conferece | Track about NoSQL",
+      "local": "São Paulo - SP / Brazil",
+      "date": "07/18/2019",
+      "talk": "Leaving relational banking to deliver performative reports on the Cloud with the Elasticsearch tool",
+      "link": "",
+      "logo": "/icons/logo-thedevconf.svg"
+    },
+    {
+      "event": "The Developers Conferece | Track about Java Architect",
+      "local": "São Paulo - SP / Brazil",
+      "date": "07/17/2019",
+      "talk": "Service Layer for data migration from legacy systems to Cloud technology",
+      "link": "",
+      "logo": "/icons/logo-thedevconf.svg"
+    },
+    {
+      "event": "The Developers Conferece | Track about Java Architect 2",
+      "local": "São Paulo - SP / Brazil",
+      "date": "07/17/2019",
+      "talk": "Service Layer for data migration from legacy systems to Cloud technology",
+      "link": "",
+      "logo": "/icons/logo-thedevconf.svg"
+    },
+    {
+      "event": "Hello Women",
+      "local": "Criciúma - SC / Brazil",
+      "date": "05/18/2019",
+      "talk": "Systems Development",
+      "link": "",
+      "logo": "/icons/logo-hello-women-criciuma.svg"
+    }
+  ],
+  "VOLUNTEER_WORKS": [
+    {
+      "event": "The Developers Conference | Track Organization Web/FrontEnd",
+      "local": "Porto Alegre - RS / Brazil",
+      "date": "06/12/2022",
+      "logo": "/icons/logo-thedevconf.svg"
+    },
+    {
+      "event": "The Developers Conference | Track Organization Web/FrontEnd",
+      "local": "Online",
+      "date": "04/12/2020",
+      "logo": "/icons/logo-thedevconf.svg"
+    },
+    {
+      "event": "The Developers Conference | Track Organization Web/FrontEnd",
+      "local": "Online",
+      "date": "07/11/2020",
+      "logo": "/icons/logo-thedevconf.svg"
+    },
+    {
+      "event": "The Developers Conference | Track Organization Web/FrontEnd",
+      "local": "Online",
+      "date": "06/26/2020",
+      "logo": "/icons/logo-thedevconf.svg"
+    },
+    {
+      "event": "The Developers Conference | Track Organization Linguagens",
+      "local": "Online",
+      "date": "04/25/2020",
+      "logo": "/icons/logo-thedevconf.svg"
+    },
+    {
+      "event": "Startup Weekend | Team Mentor",
+      "local": "Criciúma - SC / Brazil",
+      "date": "10/04/2019",
+      "logo": "/icons/logo-startup-weekend.svg"
+    },
+    {
+      "event": "The Developers Conference | Track Organization Arquitetura Java",
+      "local": "Porto Alegre - RS / Brazil",
+      "date": "11/28/2019",
+      "logo": "/icons/logo-thedevconf.svg"
+    }
+  ]
+}
