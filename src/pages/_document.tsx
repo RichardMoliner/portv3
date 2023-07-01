@@ -7,7 +7,7 @@ export default function Document() {
 
       <Head>
         <meta charSet="utf-8" />
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" type="image/png" href="/icon.png" />
         <meta name="viewport" content="initial-scale=1, width=device-width" />
 
         {/* PWA primary color */}
