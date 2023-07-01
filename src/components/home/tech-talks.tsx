@@ -1,7 +1,7 @@
 /* eslint-disable @typescript-eslint/no-explicit-any */
 import { Box, Container, Tabs, Tab, List, Divider, ListItem, ListItemAvatar, Avatar, ListItemText, Typography } from '@mui/material';
 import React, { useState, useEffect } from 'react';
-import { useTranslation } from 'react-i18next';
+import { useTranslation } from 'next-i18next';
 import { ITalk } from '@/interfaces/talks';
 import { IVolunteerWork } from '@/interfaces/volunteer-work';
 
@@ -24,10 +24,10 @@ const HomeTechTalks = () => {
   };
 
   useEffect(() => {
+    setLabelVolunteer(t('VOLUNTEER') || '');
+    setLabelEvents(t('EVENTS') || '');
     setTalks(t('TALKS', { returnObjects: true }));
     setVolunteers(t('VOLUNTEER_WORKS', { returnObjects: true }));
-    setLabelVolunteer(t('VOLUNTEER'));
-    setLabelEvents(t('EVENTS'));
   }, [t]);
 
   interface TabPanelProps {
@@ -61,7 +61,7 @@ const HomeTechTalks = () => {
     <Box
       id='tech-talks'
       sx={{
-        pt: 8,
+        pt: 2,
         backgroundColor: 'background.default',
       }}
     >

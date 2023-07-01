@@ -10,7 +10,7 @@ const HomeExperiences = () => {
     <Box
       id='experiences'
       sx={{
-        pt: 8,
+        pt: 2,
         backgroundColor: 'background.default',
       }}
     >

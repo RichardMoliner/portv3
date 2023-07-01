@@ -8,7 +8,8 @@ const Logo = () => {
         component='img'
         sx={{
           maxHeight: 60,
-          maxWidth: 400
+          maxWidth: 400,
+          minWidth: 300
         }}
         alt='Logo Daiana Cambruzzi'
         src="/images/logo-1.png" />

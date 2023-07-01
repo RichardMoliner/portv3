@@ -1,8 +1,6 @@
-/* eslint-disable @typescript-eslint/explicit-function-return-type */
 import { Box, Container, Typography } from "@mui/material";
 import { useTranslation } from 'next-i18next';
 import { SocialLinkGmail, SocialLinkLinkedin} from "@/components/social-links/";
-
 
 const HomeFindMe = () => {
   const { t } = useTranslation();

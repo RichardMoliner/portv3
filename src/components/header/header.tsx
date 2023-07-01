@@ -18,7 +18,7 @@ const Header: FC = () => {
         <Box sx={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between' }}>
           <Box sx={{ ml: 'auto', display: { xs: 'inline-flex', md: 'none' } }}>
             <IconButton onClick={() => setVisibleMenu(!visibleMenu)}>
-              <Menu />
+              <Menu sx={{ color: 'primary.contrastText' }} />
             </IconButton>
           </Box>
           <Box
@@ -52,7 +52,7 @@ const Header: FC = () => {
                 }}
                 onClick={() => setVisibleMenu(!visibleMenu)}
               >
-                <Close />
+                <Close  sx={{ color: 'primary.contrastText' }} />
               </IconButton>
             )}
           </Box>
