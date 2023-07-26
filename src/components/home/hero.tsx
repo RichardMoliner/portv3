@@ -87,13 +87,13 @@ const HomeHero: FC = () => {
               </Grid>
             </Grid>
 
-            <Grid container pt={2} alignItems={'center'} >
-              <Grid item lg={12} xs={9} display={'flex'}>
+            <Grid container pt={2}>
+              <Grid item lg={12} xs={9} display={'flex'} alignItems={'center'}>
                 <Typography variant='h3'>+10</Typography>
                 <Typography ml={2} variant='h5'>{t('LABEL_YEARS_EXPERIENCE_AREA')}</Typography>
               </Grid>
-              <Grid item lg={12} xs={9} display={'flex'}>
-                <Typography variant='h3'>+12</Typography>
+              <Grid item lg={12} xs={9} display={'flex'} alignItems={'center'}>
+                <Typography variant='h3'>+12 </Typography>
                 <Typography ml={2} variant='h5'>{t('LABEL_YEARS_EXPERIENCE_DEVELOPMENT')}</Typography>
               </Grid>
             </Grid>
