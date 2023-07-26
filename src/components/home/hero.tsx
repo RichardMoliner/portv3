@@ -67,7 +67,7 @@ const HomeHero: FC = () => {
                 }}
                 onClick={() => setVisibleMenu(!visibleMenu)}
               >
-                <Close  sx={{ color: 'secondary.main' }} />
+                <Close sx={{ color: 'secondary.main' }} />
               </IconButton>
             )}
           </Box>
@@ -76,28 +76,24 @@ const HomeHero: FC = () => {
       <Container>
         <Box>
         <Grid container sx={{ width: '100%' }} justifyContent={'end'}>
-          <Grid item lg={6} xs={12} p={{xs:0, md:2, lg:2}}>
+          <Grid item lg={6} md={6} xs={12} p={{xs:0, md:2, lg:2}}>
             <Typography variant='h4'>DAIANA CAMBRUZZI</Typography>
 
             <Typography variant='h4'>{t('JOBS')}</Typography>
 
             <Grid container pt={2}>
-              <Grid item xs={6} textAlign={'center'}>
+              <Grid item xs={6} md={8} lg={12} textAlign={'center'}>
                 <SocialLinks></SocialLinks>
               </Grid>
             </Grid>
 
-            <Grid container pt={2} alignItems={'center'}>
-              <Grid item lg={1} xs={3}>
+            <Grid container pt={2} alignItems={'center'} >
+              <Grid item lg={12} xs={9} display={'flex'}>
                 <Typography variant='h3'>+10</Typography>
-              </Grid>
-              <Grid item lg={5} xs={9}>
                 <Typography ml={2} variant='h5'>{t('LABEL_YEARS_EXPERIENCE_AREA')}</Typography>
               </Grid>
-              <Grid item lg={1} xs={3}>
+              <Grid item lg={12} xs={9} display={'flex'}>
                 <Typography variant='h3'>+12</Typography>
-              </Grid>
-              <Grid item lg={5} xs={9}>
                 <Typography ml={2} variant='h5'>{t('LABEL_YEARS_EXPERIENCE_DEVELOPMENT')}</Typography>
               </Grid>
             </Grid>
