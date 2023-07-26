@@ -10,11 +10,11 @@ import {
   ListItemText,
   Typography,
   Grid,
-} from '@mui/material'
-import React, { useState, useEffect } from 'react'
-import { useTranslation } from 'next-i18next'
-import { ITalk } from '@/interfaces/talks'
-import { IVolunteerWork } from '@/interfaces/volunteer-work'
+} from '@mui/material';
+import React, { useState, useEffect } from 'react';
+import { useTranslation } from 'next-i18next';
+import { ITalk } from '@/interfaces/talks';
+import { IVolunteerWork } from '@/interfaces/volunteer-work';
 
 export interface IParceiros {
   name: string
@@ -22,38 +22,15 @@ export interface IParceiros {
 }
 
 const HomeTechTalks = () => {
-  const { t } = useTranslation()
+  const { t } = useTranslation();
 
-  const [talks, setTalks] = useState<any>([])
-  const [volunteers, setVolunteers] = useState<any>([])
+  const [talks, setTalks] = useState<any>([]);
+  const [volunteers, setVolunteers] = useState<any>([]);
 
   useEffect(() => {
-    setTalks(t('TALKS', { returnObjects: true }))
-    setVolunteers(t('VOLUNTEER_WORKS', { returnObjects: true }))
-  }, [t])
-
-  interface TabPanelProps {
-    children?: React.ReactNode
-    dir?: string
-    index: number
-    value: number
-  }
-
-  function TabPanel(props: TabPanelProps) {
-    const { children, value, index, ...other } = props
-
-    return (
-      <div
-        role="tabpanel"
-        hidden={value !== index}
-        id={`full-width-tabpanel-${index}`}
-        aria-labelledby={`full-width-tab-${index}`}
-        {...other}
-      >
-        {value === index && <Box>{children}</Box>}
-      </div>
-    )
-  }
+    setTalks(t('TALKS', { returnObjects: true }));
+    setVolunteers(t('VOLUNTEER_WORKS', { returnObjects: true }));
+  }, [t]);
 
   return (
     <Box
@@ -103,7 +80,7 @@ const HomeTechTalks = () => {
                       />
                     </ListItem>
                   </>
-                )
+                );
               })}
             </List>
           </Grid>
@@ -138,14 +115,14 @@ const HomeTechTalks = () => {
                       />
                     </ListItem>
                   </>
-                )
+                );
               })}
             </List>
           </Grid>
         </Grid>
       </Container>
     </Box>
-  )
-}
+  );
+};
 
-export default HomeTechTalks
+export default HomeTechTalks;

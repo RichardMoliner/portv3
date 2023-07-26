@@ -1,8 +1,8 @@
-import { Box, Container, Divider, Grid, Typography } from '@mui/material'
-import { useTranslation } from 'next-i18next'
+import { Box, Container, Divider, Grid, Typography } from '@mui/material';
+import { useTranslation } from 'next-i18next';
 
 const HomeAboutMe = () => {
-  const { t } = useTranslation()
+  const { t } = useTranslation();
 
   return (
     <Box
@@ -43,7 +43,7 @@ const HomeAboutMe = () => {
         </Grid>
       </Container>
     </Box>
-  )
-}
+  );
+};
 
-export default HomeAboutMe
+export default HomeAboutMe;
