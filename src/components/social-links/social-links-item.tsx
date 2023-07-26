@@ -35,7 +35,6 @@ const SocialLinksItem: FC<SocialLinkItemProps> = ({ item }) => (
     sx={{
       display: 'inline-block',
       color: 'primary.contrastText',
-      mr: 2,
     }}
   >
     <Link
