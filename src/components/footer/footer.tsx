@@ -6,9 +6,9 @@ const Footer: FC = () => {
     <>
       <Box component='footer'
         sx={{
-          backgroundColor: 'secondary.ligth',
+          backgroundColor: 'primary.main',
           pt: 2, pb: 2,
-          color: 'secondary.contrastText'
+          color: 'secondary.main'
         }}
       >
         <Container>

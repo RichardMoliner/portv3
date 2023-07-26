@@ -1,8 +1,9 @@
 import { PaletteOptions } from '@mui/material';
+import { common } from '@mui/material/colors';
 
 const paletteBase: Partial<PaletteOptions> = {
   background: {
-    default: '#1E2640'
+    default: common.white
   },
   primary: {
     light: '#9FF1D2',
@@ -12,7 +13,7 @@ const paletteBase: Partial<PaletteOptions> = {
   },
   secondary: {
     light: '#F3EAC0',
-    main: '#3c997c',
+    main: '#FF66C4',
     dark: '#D0821C',
     contrastText: '#FF66C4',
   },

@@ -9,6 +9,10 @@ const Navigation: FC = () => {
 
   const navigations = [
     {
+      label: 'ABOUT ME',
+      path: 'about-me',
+    },
+    {
       label: 'EXPERIENCES',
       path: 'experiences',
     },
@@ -49,13 +53,13 @@ const Navigation: FC = () => {
             '&.current>div': { display: 'block' },
             '&:hover': {
               textDecoration: 'none',
-              color: 'secondary.contrastText',
+              color: 'secondary.main',
               '&>div': {
                 display: 'block',
               },
             },
           }}>
-          <Typography variant='h4'> {t(label)} </Typography>
+          <Typography variant='h5'> {t(label)} </Typography>
         </Box>
       ))}
     </Box>

@@ -14,7 +14,7 @@ const HomeFindMe = () => {
     >
       <Container maxWidth="lg">
         <Box textAlign={'center'} p={2}>
-          <Typography variant="h4">{t("HIRE_TALKS")}</Typography>
+          <Typography variant="h4">{t("CONTACT_ME")}</Typography>
           <SocialLinkGmail></SocialLinkGmail>
           <SocialLinkLinkedin></SocialLinkLinkedin>
         </Box>

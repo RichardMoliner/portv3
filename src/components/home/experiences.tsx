@@ -1,4 +1,4 @@
-import { Box, Button, Card, CardActions, CardContent, Container, Grid, Typography } from '@mui/material';
+import { Box, Button, Card, CardActions, CardContent, Container, Divider, Grid, Typography } from '@mui/material';
 import { useTranslation } from 'next-i18next';
 import experiencesData  from './experiences.data';
 import { IExperience } from '@/interfaces/experiences';
@@ -16,10 +16,23 @@ const HomeExperiences = () => {
     >
       <Container maxWidth='lg'>
         <Grid container>
+          <Grid item xs={12} textAlign={'center'}> 
+        
+            <Typography variant='h3' pb={2}>
+              {t('EXPERIENCES')}
+              </Typography>
+              <Divider
+              variant="inset"
+              sx={{ borderWidth: 2, borderColor: 'secondary.main', width: '60px', marginLeft: 0 }}
+            />
+
+          </Grid>
+          <Grid item xs={12} alignItems={'center'} pt={1}> 
+
           {experiencesData.map((item: IExperience) => {
             return (
-              <Grid item lg={12} xs={12} key={`item-${item.id}`} pb={4} pr={2}>
-                <Card variant='outlined' key={`${item.id}`} sx={{ height: '100%', display: 'inline-grid', backgroundColor: 'secondary.light' }}>
+              <Grid item lg={12} xs={12} key={`item-${item.id}`} pb={4}>
+                <Card variant='outlined' key={`${item.id}`} sx={{ height: '100%', display: 'inline-grid', boxShadow: 2 }}>
                   <CardContent>
                     <Typography color='text.primary' gutterBottom>
                       {t(`${item.title}`)}
@@ -39,6 +52,7 @@ const HomeExperiences = () => {
               </Grid>
             );
           })}
+          </Grid>
         </Grid>
       </Container>
     </Box>

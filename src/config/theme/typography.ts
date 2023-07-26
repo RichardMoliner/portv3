@@ -20,9 +20,12 @@ const typography: TypographyOptions = {
   },
   h2: {
     fontSize: 28,
+    '@media (min-width:400px)': {
+      fontSize: 20,
+    },
     lineHeight: headingLineHeight,
     fontWeight: 700,
-    color: '#F3EAC0'
+    color: '#1E2640'
   },
   h3: {
     fontSize: 24,
@@ -33,7 +36,7 @@ const typography: TypographyOptions = {
     fontSize: 22,
     lineHeight: headingLineHeight,
     fontWeight: 700,
-    color: '#F3EAC0'
+    color: '#1E2640'
   },
   h5: {
     fontSize: 17,

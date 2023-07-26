@@ -1,10 +1,18 @@
-import React, { FC } from 'react';
+import React, { FC, useState } from 'react';
 import { Box, Grid, Container, Typography } from '@mui/material';
 import { useTranslation } from 'next-i18next';
 import { SocialLinks } from '@/components/social-links/';
-import { Logo } from '@/components/logo';
+
+import IconButton from '@mui/material/IconButton';
+import useMediaQuery from '@mui/material/useMediaQuery';
+import { Navigation } from '@/components/navigation';
+import { useTheme } from '@mui/material/styles';
+import { Menu, Close } from '@mui/icons-material';
 
 const HomeHero: FC = () => {
+  const [visibleMenu, setVisibleMenu] = useState<boolean>(false);
+  const { breakpoints } = useTheme();
+  const matchMobileView = useMediaQuery(breakpoints.down('md'));
   const { t } = useTranslation();
 
   return (
@@ -12,50 +20,90 @@ const HomeHero: FC = () => {
       id='hero'
       sx={{
         pt: 2,
-        backgroundColor: 'background.default',
-        width: '100%'
+        backgroundRepeat: 'no-repeat',
+        backgroundPosition:'center',
+        backgroundSize: 'auto',
+        width: '100%',
+        height: '540px',
+        backgroundImage:{lg: "url('images/background.svg')", md: "url('images/background.svg')", xs: "url('images/background-mobile.svg')"}
       }}
+
     >
+      <Container sx={{ py: { xs: 2, md: 3 } }}>
+        <Box sx={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between' }}>
+          <Box sx={{ ml: 'auto', display: { xs: 'inline-flex', md: 'none' } }}>
+            <IconButton onClick={() => setVisibleMenu(!visibleMenu)}>
+              <Menu sx={{ color: 'secondary.main' }} />
+            </IconButton>
+          </Box>
+          <Box
+            sx={{
+              width: '100%',
+              display: 'flex',
+              alignItems: 'center',
+              justifyContent: 'space-between',
+              flexDirection: { xs: 'column', md: 'row' },
+
+              transition: (theme) => theme.transitions.create(['top']),
+              ...(matchMobileView && {
+                paddingBottom: '45vh',
+                backgroundColor: 'background.default',
+                zIndex: 'appBar',
+                position: 'fixed',
+                height: { xs: '100vh', md: 'auto' },
+                top: visibleMenu ? 0 : '-120vh',
+                left: 0,
+              }),
+            }}
+          >
+            <Box /> {/* Magic space */}
+            <Navigation />
+            {visibleMenu && matchMobileView && (
+              <IconButton
+                sx={{
+                  position: 'fixed',
+                  top: 10,
+                  right: 10,
+                }}
+                onClick={() => setVisibleMenu(!visibleMenu)}
+              >
+                <Close  sx={{ color: 'secondary.main' }} />
+              </IconButton>
+            )}
+          </Box>
+        </Box>
+      </Container>
       <Container>
-        <Grid container sx={{ width: '100%' }} alignItems={'center'}>
-          <Grid item lg={6}
-            xs={12} p={2}>
-            <Logo />
-            <Typography variant='h2'>{t('JOBS')}</Typography>
+        <Box>
+        <Grid container sx={{ width: '100%' }} justifyContent={'end'}>
+          <Grid item lg={6} xs={12} p={{xs:0, md:2, lg:2}}>
+            <Typography variant='h4'>DAIANA CAMBRUZZI</Typography>
+
+            <Typography variant='h4'>{t('JOBS')}</Typography>
 
             <Grid container pt={2}>
-              <Grid item xs={12} textAlign={'center'}>
+              <Grid item xs={6} textAlign={'center'}>
                 <SocialLinks></SocialLinks>
               </Grid>
             </Grid>
 
             <Grid container pt={2} alignItems={'center'}>
               <Grid item lg={1} xs={3}>
-                <Typography variant='h1'>+10</Typography>
+                <Typography variant='h3'>+10</Typography>
               </Grid>
               <Grid item lg={5} xs={9}>
-                <Typography ml={2} variant='h4'>{t('LABEL_YEARS_EXPERIENCE_AREA')}</Typography>
+                <Typography ml={2} variant='h5'>{t('LABEL_YEARS_EXPERIENCE_AREA')}</Typography>
               </Grid>
               <Grid item lg={1} xs={3}>
-                <Typography variant='h1'>+12</Typography>
+                <Typography variant='h3'>+12</Typography>
               </Grid>
               <Grid item lg={5} xs={9}>
-                <Typography ml={2} variant='h4'>{t('LABEL_YEARS_EXPERIENCE_DEVELOPMENT')}</Typography>
+                <Typography ml={2} variant='h5'>{t('LABEL_YEARS_EXPERIENCE_DEVELOPMENT')}</Typography>
               </Grid>
             </Grid>
           </Grid>
-          <Grid item lg={6} xs={12} sx={{ textAlign: 'end' }}>
-            <Box
-              component='img'
-              sx={{
-                maxWidth: '100%',
-                maxHeight: '600px',
-                borderRadius: 3
-              }}
-              alt='Image Dai'
-              src='/images/daiana-cambruzzi.png' />
-          </Grid>
         </Grid>
+        </Box>
       </Container>
     </Box>
   );
