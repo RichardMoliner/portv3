@@ -82,7 +82,7 @@ const HomeHero: FC = () => {
             <Typography variant='h4'>{t('JOBS')}</Typography>
 
             <Grid container pt={2}>
-              <Grid item xs={6} md={8} lg={12} textAlign={'center'}>
+              <Grid item textAlign={'center'}>
                 <SocialLinks></SocialLinks>
               </Grid>
             </Grid>
