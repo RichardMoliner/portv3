@@ -25,7 +25,7 @@ const HomeHero: FC = () => {
         backgroundSize: 'auto',
         width: '100%',
         height: '540px',
-        backgroundImage:{lg: "url('images/richard.svg')", md: "url('images/background.svg')", xs: "url('images/background-mobile.svg')"}
+        backgroundImage:{lg: "url('images/richard.svg')", md: "url('images/richard.svg')", xs: "url('images/richard.svg')"}
       }}
 
     >
