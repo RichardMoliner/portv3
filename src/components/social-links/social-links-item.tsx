@@ -9,22 +9,22 @@ interface SocialLinkItemProps {
 export const socialLinks: SocialLink[] = [
   {
     name: 'Instagram',
-    link: 'https://www.instagram.com/daicambruzzi/',
+    link: 'https://www.instagram.com/richardmoliner/',
     icon: '/icons/instagram.svg',
   },
   {
     name: 'Linkedin',
-    link: 'https://www.linkedin.com/in/daiana-cambruzzi-avila/',
+    link: 'https://www.linkedin.com/in/richard-moliner/',
     icon: '/icons/linkedin.svg',
   },
   {
     name: 'Email',
-    link: 'mailto:daiana.avila@gmail.com',
+    link: 'mailto:richardmoliner@gmail.com',
     icon: '/icons/gmail.svg',
   },
   {
     name: 'Github',
-    link: 'https://www.github.com/daicambruzzi/',
+    link: 'https://www.github.com/richardmoliner/',
     icon: '/icons/github.svg',
   },
 ];

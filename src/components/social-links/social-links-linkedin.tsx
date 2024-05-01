@@ -6,7 +6,7 @@ import SocialLinkItem from './social-links-item';
 const SocialLinkLinkedin: FC = () => {
   const socialLink: SocialLink = {
     name: 'Linkedin',
-    link: 'https://www.linkedin.com/in/daiana-cambruzzi-avila/',
+    link: 'https://www.linkedin.com/in/richard-moliner/',
     icon: '/icons/linkedin.svg',
   };
 

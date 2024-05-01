@@ -6,7 +6,7 @@ import SocialLinkItem from './social-links-item';
 const SocialLinkInstagram: FC = () => {
   const socialLink: SocialLink = {
     name: 'Instagram',
-    link: 'https://www.instagram.com/daicambruzzi/',
+    link: 'https://www.instagram.com/richardmoliner/',
     icon: '/icons/instagram.svg',
   };
 

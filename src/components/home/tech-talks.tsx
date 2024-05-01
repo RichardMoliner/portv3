@@ -42,7 +42,7 @@ const HomeTechTalks = () => {
     >
       <Container maxWidth="lg">
         <Grid container>
-          <Grid item lg={6} xs={12}>
+          <Grid item lg={12} xs={12}>
           <Divider variant="inset" sx={{borderWidth: 2, borderColor: 'secondary.main', width: '60px', marginLeft: 0}}/>
 
             <h3>{t('TECH_TALKS')}</h3>
@@ -85,40 +85,7 @@ const HomeTechTalks = () => {
             </List>
           </Grid>
 
-          <Grid item lg={6} xs={12}>
-          <Divider variant="inset" sx={{borderWidth: 2, borderColor: 'secondary.main', width: '60px', marginLeft: 0}}/>
-
-            <h3>{t('VOLUNTEER')}</h3>
-
-            <List
-              sx={{
-                width: '100%',
-                borderBottomRightRadius: 2,
-                borderBottomLeftRadius: 2,
-              }}
-            >
-              {volunteers.map((volunteer: IVolunteerWork, index: number) => {
-                return (
-                  <>
-                    {!!index && <Divider variant="inset" component="li" />}
-                    <ListItem alignItems="flex-start" key={`item-volunteer-${index}`}>
-                      <ListItemAvatar>
-                        <Avatar alt="Logo Event" src={volunteer.logo} />
-                      </ListItemAvatar>
-                      <ListItemText
-                        primary={volunteer.event}
-                        secondary={
-                          <React.Fragment>
-                            {volunteer.local} | {volunteer.date}
-                          </React.Fragment>
-                        }
-                      />
-                    </ListItem>
-                  </>
-                );
-              })}
-            </List>
-          </Grid>
+          
         </Grid>
       </Container>
     </Box>

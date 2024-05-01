@@ -23,8 +23,8 @@ const HomeAboutMe = () => {
               sx={{ borderWidth: 2, borderColor: 'secondary.main', width: '60px', marginLeft: 0 }}
             />
 
-            <h3>DAIANA CAMBRUZZI</h3>
-            <Typography color="text.primary" gutterBottom>
+            <h3>RICHARD MOLINER JÚNIOR</h3>
+            <Typography color="text.primary" textAlign={'justify'} gutterBottom>
               {t('TEXT_ABOUT_ME')}
             </Typography>
           </Grid>
@@ -37,7 +37,7 @@ const HomeAboutMe = () => {
                 borderRadius: 3,
               }}
               alt="Image Dai"
-              src="/images/daiana-cambruzzi-about-me.svg"
+              src="/images/richard-about-me.svg"
             />
           </Grid>
         </Grid>

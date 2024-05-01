@@ -1,147 +1,53 @@
 {
   "ABOUT_ME": "SOBRE MIM",
-  "COMPANY_SENIOR_FRONTEND": "Zenvia Mobile (ago de 2020 - jul de 2022)",
-  "COMPANY_SOFTWARE_ARCHITECT": "XP Inc (ago de 2022 - abr de 2023)",
-  "COMPANY_SOFTWARE_ENGINEERING_MANAGER": "iFood (set de 2023 - o momento)",
-  "COMPANY_TECH_MANAGER": "Acerto Cobranças (abr de 2023 - set de 2023)",
+  "COMPANY_SOFTWARE_ARCHITECT": "Sistema Info (Nov 2017 - Dez 2018)",
+  "COMPANY_TECH_MANAGER": "Sistema Info (Jan 2024 - até o momento)",
+  "COMPANY_SOFTWARE_ENGINEERING_MANAGER": "Sistema Info (Jan 2019 - Dez 2023)",
   "CONTACT_ME": "ENTRE EM CONTATO COMIGO!",
   "DESCRIPTION_SENIOR_FRONTEND": "Atuação no time de chatbots conversacionais com as plataformas de comunicação como Whatsapp, SMS, Instagram, Facebook e etc. Responsável pela evolução técnica da aplicação frontend monolito para micro frontend gerenciado por Single SPA, com o uso do framework Angular 9 e Angular 10, Vue.js 3 e Vue.js 4. Implementação de testes E2E com Cypress e testes unitários com Karma. Utilização da ferramenta para envio de dados para o Google Analytics e uso FullStory para analisar o comportamento do cliente. Participação no Chapter de FrontEnd e organizadora de eventos sobre a área tech dentro da empresa.",
-  "DESCRIPTION_SOFTWARE_ARCHITECT": "Análise da arquitetura e realização de testes de performance para suportar diferentes temas na biblioteca de componentes Soma Design System. Experiência com testes de snapshots. Participação do time de embaixadores do Soma, a fim de aumentar cada vez mais o uso da biblioteca de componentes nas aplicações da empresa. Experiência com o uso da biblioteca StencilJs, Typescript e React. Liderança na construção do projeto interno para recompensar as contribuições dos desenvolvedores nos projetos innersource da empresa. Na construção do projeto, criei o roadmap do produto com base em pesquisas aplicadas com os engenheiros, desenho da arquitetura e implementação. Experiência frontend com uso de NextJs, React. Uso do Node.js para aplicação backend e banco de dados PostgreSQL, com infraestrutura na Azure.",
-  "DESCRIPTION_TECH_MANAGER": "Atualmente estou na função de frontend tech manager, liderando um time de desenvolvedores frontend. Atuo com orientação técnica para o time, criando planejamento estratégico para o time e métricas para mensurar progresso e resultados. Atuando como Líder Estratégico de Design System, responsável por construir conexões e relacionamentos com outros engenheiros, designers e líderes de produto para garantir entregas alinhadas com a estratégia do produto e da empresa. Atuar na formação do processo de recrutamento e integração de tecnologia, contratando e integrando talentos de engenharia que Trabalho em tecnologias e plataformas Front-End, sendo também responsável por promover feedback (1:1), construção de PDI e desenvolvimento de carreira da equipe sob minha gestão.",
-  "DESCRIPTION_SOFTWARE_ENGINEERING_MANAGER": "Lidero a equipe de engenharia responsável pelo Gestor de Pedidos Web/Desktop referente ao Ecossistema iFood, sendo que esse produto é a principal interface entre o restaurante e os clientes, entregadores e suporte do ifood, responsável pelo ciclo de vida de cerca de milhões e milhões de pedidos por mês. Responsabilidades: Colaboração ativa no design da arquitetura e na criação de soluções, utilizando conhecimento técnico abrangente de todo o ecossistema técnico. Orientação e desenvolvimento contínuo dos membros da equipe, por meio de reuniões individuais regulares (1:1s), elaboração de Planos de Desenvolvimento Individual (PDI) e fornecimento de feedback. Elaboração do cronograma de desenvolvimento em conjunto com a equipe de produto, alinhando as necessidades do negócio com o backlog de engenharia. Estabelecimento de uma comunicação eficaz com as partes interessadas para compartilhar a visão, os objetivos e as métricas da equipe de engenharia. Responsável por promover a cultura ágil nos times, garantir a qualidade das entregas e agregar valor aos clientes. Monitoramento constante das métricas relacionadas ao produto e ao desempenho do negócio. Recrutamento e capacitação de novos membros, visando fortalecer a equipe e melhorar as habilidades existentes.",
+  "DESCRIPTION_SOFTWARE_ARCHITECT": "Minha rotina envolvia o atendimento de chamados técnicos para solucionar problemas e dúvidas relacionados a softwares web e desktop, assim como a interceptação e análise de chamadas de APIs, a análise e depuração de código fonte, e consultas em bancos de dados relacionais utilizando SQL. Além disso, eu também era responsável pela elaboração de FAQs e documentos técnicos para capacitar o usuário final e permitir sua autonomia.",
+  "DESCRIPTION_TECH_MANAGER": "Durante minha jornada, destaco a criação do Setor de Desenvolvimento e Sustentação de Revendas de Valor Agregado (VAR), estabelecendo critérios de credenciamento que fortaleceram nossas relações estratégicas. Também priorizei demandas do Roadmap, garantindo a entrega contínua de produtos e maior satisfação dos clientes, além de implementar o Programa de Parceiros e Benefícios para reconhecer e incentivar a equipe comercial. Meu papel como intermediário entre o Setor de Produtos e as revendas, aliado à análise de mercado e concorrência, assegurou a competitividade dos produtos e contribuiu para o sucesso da empresa.",
+  "DESCRIPTION_SOFTWARE_ENGINEERING_MANAGER": "Responsável pela gestão e desenvolvimento profissional de 13 liderados, supervisei a operação de suporte técnico para softwares web e desktop, garantindo a sustentabilidade e fidelização de uma base de clientes de 2.000 clientes. Implementei e gerenciei com sucesso a ferramenta de chamados Movidesk, viabilizando a conformidade com SLA para melhorar a satisfação do cliente e reduzir a carga de trabalho dos analistas de suporte por meio da automação de processos. Além disso, criei e gerenciei indicadores de satisfação do cliente, tempos de primeira resposta e resolução, e contratos de SLA, proporcionando acesso rápido e eficiente às informações para a equipe executiva. Também gerenciei as fases de implementação de projetos de software, garantindo o cumprimento do escopo, custos e prazos, além de lidar efetivamente com contratos de serviços de suporte técnico para evitar prejuízos com horas extras e excessos.",
   "EVENTS": "Eventos (9)",
   "EXPERIENCES": "EXPERIÊNCIAS",
   "FIND_ME": "ME ENCONTRE",
   "HELLO": "Olá!",
   "HIRE_TALKS": "Quer uma palestra envolvente e repleta de conhecimento sobre desenvolvimento de software? Entre em contato agora mesmo e descubra como posso compartilhar insights valiosos e inspirar sua equipe ou público",
-  "JOBS": "Software Engineering Manager | Palestrante | Mentora de Carreira para Desenvolvedores",
-  "LABEL_YEARS_EXPERIENCE_AREA": "anos de experiência na área de frontend",
-  "LABEL_YEARS_EXPERIENCE_DEVELOPMENT": "anos de experiência em desenvolvimento de software",
+  "JOBS": "Agile Expert | Scrum Master | Gerente de Projetos",
+  "LABEL_YEARS_EXPERIENCE_AREA": "anos de experiência na área de gestão",
+  "LABEL_YEARS_EXPERIENCE_DEVELOPMENT": "anos de experiência em tecnologia",
   "LEARN_MORE": "Saiba Mais",
-  "TECH_TALKS": "PALESTRAS",
-  "TEXT_ABOUT_ME": "Software Enginnering Manager no iFood. Lidero uma equipe de seis engenheiros de software, responsáveis pelo Gestor de Pedidos Web/Desktop referente ao Ecossistema iFood, sendo que esse produto é a principal interface entre o restaurante e os clientes, entregadores e suporte do ifood, responsável pelo ciclo de vida de cerca de milhões e milhões de pedidos por mês. Experiência na construção de aplicações utilizando o modelo arquitetural de Micro Front-Ends e desenvolvimento de bibliotecas de componentes de Design Systems com uso da biblioteca StencilJs que possibilita o seu uso da biblioteca agnóstica de frameworks e libs. Experiência com o uso das stacks de React, Angular, AngularJS, VueJs e NextJs. Atuo há mais de dez anos na área de frontend, sendo o uso do Typescript como principal linguagem de programação. Apaixonada por compartilhar conteúdos, participo de comunidades e eventos da área de desenvolvimento de software como Coordenadora de Eventos como o evento The Developers Conference, palestrando também sobre a área de programação e frontend, Mentora de Eventos como o Startup Weekend e compartilho conteúdos de tecnologias nas redes sociais.",
-  "TITLE_SENIOR_FRONTEND": "Engenheira de Software Senior FrontEnd",
-  "TITLE_SOFTWARE_ARCHITECT": "Arquiteta de Software FrontEnd",
-  "TITLE_SOFTWARE_ENGINEERING_MANAGER": "Software Engineering Manager",
-  "TITLE_TECH_MANAGER": "Tech Manager FrontEnd",
+  "TECH_TALKS": "EVENTOS QUE PARTICIPEI",
+  "TEXT_ABOUT_ME": "Formado em Processos Gerenciais, pós-graduando em Gestão Ágil de Projetos, 7 anos de experiência em TI, iniciei na área de tecnologia em 2017 como analista de suporte técnico. No início de 2019 fui convidado a atuar como gestor da equipe de suporte técnico. Desde então, venho trabalhando com gestão de equipes, focado na formação de novos profissionais de tecnologia. Destaco minha expertise na criação de setores, gerenciamento de processos de qualidade (ISO 9001), gerenciamento de projetos, contratação/desligamento de profissionais, gestão de indicadores e apresentação de resultados. Em 2024, passei a integrar o conselho da unidade de negócios de produto, contribuindo para decisões táticas e estratégicas, assegurando os resultados operacionais. Atualmente estou apaixonado pelo mundo ágil, área a qual estou me especializando na pós-graduação, na XP Educação. Tenho vários hobbies, sou faixa azul de jiu-jitsu, gosto muito de surfar e estar em contato com a natureza. Procuro estar sempre em contato com o mundo de tecnologia, participando de eventos como TDC, Front in Floripa e Brasil Empreende. Acredito que a tecnologia muda o mundo todos os dias, e meu foco é manter minha carreira nessa direção para ajudar as pessoas através da tecnologia",
+  "TITLE_SOFTWARE_ARCHITECT": "Analista de Suporte",
+  "TITLE_SOFTWARE_ENGINEERING_MANAGER": "Gerente de Suporte Técnico",
+  "TITLE_TECH_MANAGER": "Gerente de Canais",
   "VOLUNTEER": "TRABALHOS VOLUNTÁRIOS",
   "SKILLS_SENIOR_FRONTEND": "SingleSPA, MicroFrontEnd, Angular (Framework), Vue.js, Google Analytics, FullStory",
   "SKILLS_SOFTWARE_ARCHITECT": "StencilJS, React, NextJS, TypeScript, Node.js, Strapi, Azure DevOps",
   "TALKS": [
     {
-      "event": "Evento devTEC",
+      "event": "DevTEC",
       "local": "Tubarão - SC / Brasil",
-      "date": "20/06/2023",
-      "talk": "Desvendando Design System",
+      "date": "06/20/2023",
+      "talk": "Desvendendo o Design System",
       "link": "https://www.canva.com/design/DAFl1BSagiE/srEiB7l9By_6d1xKlAg87w/edit?utm_content=DAFl1BSagiE&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton",
       "logo": "/icons/logo-dev-tec.svg"
     },
     {
-      "event": "DevTEC Event",
-      "local": "Tubarão - SC / Brazil",
-      "date": "20/06/2023",
-      "talk": "Painel: Como Iniciar a Carreira em Desenvolvimento de Software",
+      "event": "DevTEC",
+      "local": "Tubarão - SC / Brasil",
+      "date": "06/20/2023",
+      "talk": "Como iniciar na carreira de tecnologia",
       "link": "",
       "logo": "/icons/logo-dev-tec.svg"
     },
     {
-      "event": "Evento Comunidade GUFERS",
-      "local": "Online",
-      "date": "26/08/2021",
-      "talk": "Single-SPA: Como este framework pode me ajudar na construção de Micro FrontEnds",
-      "link": "",
-      "logo": "/icons/logo-sucesu-rs.svg"
-    },
-    {
-      "event": "The Developers Conference Innovation | Trilha de JavaScript e Node.js",
-      "local": "Online",
-      "date": "23/03/2021",
-      "talk": "Single-SPA: Como este framework pode me ajudar na construção de Micro FrontEnds",
-      "link": "",
-      "logo": "/icons/logo-thedevconf.svg"
-    },
-    {
-      "event": "The Developers Conference | Trilha de JavaScript e Node.js",
+      "event": "The Developers Conference | trilha JavaScript - Front End",
       "local": "Porto Alegre - RS / Brasil",
-      "date": "03/12/2020",
-      "talk": "Single-SPA: Como este framework pode me ajudar na construção de Micro FrontEnds",
+      "date": "06/12/2021",
+      "talk": "Desenvolvimento Front End",
       "link": "",
-      "logo": "/icons/logo-thedevconf.svg"
-    },
-    {
-      "event": "The Developers Conference | Trilha de NoSQL",
-      "local": "São Paulo - SP / Brasil",
-      "date": "18/07/2019",
-      "talk": "Fugindo do banco relacional para entregar relatórios performáticos no Cloud com a ferramenta Elasticsearch",
-      "link": "",
-      "logo": "/icons/logo-thedevconf.svg"
-    },
-    {
-      "event": "The Developers Conference | Trilha de Arquitetura Java",
-      "local": "São Paulo - SP / Brasil",
-      "date": "17/07/2019",
-      "talk": "Service Layer para migração de dados de sistemas legados para a tecnologia Cloud",
-      "link": "",
-      "logo": "/icons/logo-thedevconf.svg"
-    },
-    {
-      "event": "The Developers Conference | Trilha de Arquitetura Java 2",
-      "local": "São Paulo - SP / Brasil",
-      "date": "17/07/2019",
-      "talk": "Service Layer para migração de dados de sistemas legados para a tecnologia Cloud",
-      "link": "",
-      "logo": "/icons/logo-thedevconf.svg"
-    },
-    {
-      "event": "Hello Women",
-      "local": "Criciúma - SC / Brasil",
-      "date": "18/05/2019",
-      "talk": "Desenvolvimento de Sistemas",
-      "link": "",
-      "logo": "/icons/logo-hello-women-criciuma.svg"
-    }
-  ],
-  "VOLUNTEER_WORKS": [
-    {
-      "event": "The Developers Conference | Organização da Trilha Web/FrontEnd",
-      "local": "Porto Alegre - RS / Brasil",
-      "date": "06/12/2022",
-      "logo": "/icons/logo-thedevconf.svg"
-    },
-    {
-      "event": "The Developers Conference | Organização da Trilha Web/FrontEnd",
-      "local": "Online",
-      "date": "04/12/2020",
-      "logo": "/icons/logo-thedevconf.svg"
-    },
-    {
-      "event": "The Developers Conference | Organização da Trilha Web/FrontEnd",
-      "local": "Online",
-      "date": "07/11/2020",
-      "logo": "/icons/logo-thedevconf.svg"
-    },
-    {
-      "event": "The Developers Conference | Organização da Trilha Web/FrontEnd",
-      "local": "Online",
-      "date": "26/06/2020",
-      "logo": "/icons/logo-thedevconf.svg"
-    },
-    {
-      "event": "The Developers Conference | Organização da Trilha Linguagens",
-      "local": "Online",
-      "date": "25/04/2020",
-      "logo": "/icons/logo-thedevconf.svg"
-    },
-    {
-      "event": "Startup Weekend | Mentora das Equipes",
-      "local": "Criciúma - SC / Brasil",
-      "date": "04/10/2019",
-      "logo": "/icons/logo-startup-weekend.svg"
-    },
-    {
-      "event": "The Developers Conference | Organização da Trilha Arquitetura Java",
-      "local": "Porto Alegre - RS / Brasil",
-      "date": "28/11/2019",
       "logo": "/icons/logo-thedevconf.svg"
     }
   ]

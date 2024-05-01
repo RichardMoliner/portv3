@@ -14,7 +14,7 @@ const Footer: FC = () => {
         <Container>
           <Grid container>
             <Grid item>
-              <Typography variant='body1'>© Daiana Cambruzzi | 2023</Typography>
+              <Typography>created by <strong>Richard Moliner Júnior</strong> | 2024</Typography>
             </Grid>
           </Grid>
         </Container>

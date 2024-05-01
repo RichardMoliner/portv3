@@ -6,7 +6,7 @@ import SocialLinkItem from './social-links-item';
 const SocialLinkGmail: FC = () => {
   const socialLink: SocialLink = {
     name: 'Email',
-    link: 'mailto:daiana.avila@gmail.com',
+    link: 'mailto:richardmoliner@gmail.com',
     icon: '/icons/gmail.svg'
   };
 

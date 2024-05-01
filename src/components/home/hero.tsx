@@ -25,7 +25,7 @@ const HomeHero: FC = () => {
         backgroundSize: 'auto',
         width: '100%',
         height: '540px',
-        backgroundImage:{lg: "url('images/background.svg')", md: "url('images/background.svg')", xs: "url('images/background-mobile.svg')"}
+        backgroundImage:{lg: "url('images/richard.svg')", md: "url('images/background.svg')", xs: "url('images/background-mobile.svg')"}
       }}
 
     >
@@ -77,7 +77,7 @@ const HomeHero: FC = () => {
         <Box>
         <Grid container sx={{ width: '100%' }} justifyContent={'end'}>
           <Grid item lg={6} md={6} xs={12} p={{xs:0, md:2, lg:2}}>
-            <Typography variant='h4'>DAIANA CAMBRUZZI</Typography>
+            <Typography variant='h4'>RICHARD MOLINER JÚNIOR</Typography>
 
             <Typography variant='h4'>{t('JOBS')}</Typography>
 
@@ -89,11 +89,11 @@ const HomeHero: FC = () => {
 
             <Grid container pt={2}>
               <Grid item lg={12} xs={9} display={'flex'} alignItems={'center'}>
-                <Typography variant='h3'>+10</Typography>
+                <Typography variant='h3'>+5</Typography>
                 <Typography ml={2} variant='h5'>{t('LABEL_YEARS_EXPERIENCE_AREA')}</Typography>
               </Grid>
               <Grid item lg={12} xs={9} display={'flex'} alignItems={'center'}>
-                <Typography variant='h3'>+12 </Typography>
+                <Typography variant='h3'>+7</Typography>
                 <Typography ml={2} variant='h5'>{t('LABEL_YEARS_EXPERIENCE_DEVELOPMENT')}</Typography>
               </Grid>
             </Grid>

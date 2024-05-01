@@ -6,7 +6,7 @@ import SocialLinkItem from './social-links-item';
 const SocialLinkGitHub: FC = () => {
   const socialLink: SocialLink = {
     name: 'Github',
-    link: 'https://www.github.com/daicambruzzi/',
+    link: 'https://www.github.com/richardmoliner/',
     icon: '/icons/github.svg',
   };
 
