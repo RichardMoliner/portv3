@@ -46,7 +46,7 @@ const HomeExperiences = () => {
                     </Typography>
                   </CardContent>
                   <CardActions>
-                    <Button target='_blank' href='https://www.linkedin.com/in/daiana-cambruzzi-avila/' size='small'>{t('LEARN_MORE')}</Button>
+                    <Button target='_blank' href='https://www.linkedin.com/in/richard-moliner/' size='small'>{t('LEARN_MORE')}</Button>
                   </CardActions>
                 </Card>
               </Grid>
